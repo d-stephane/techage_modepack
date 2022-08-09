@@ -100,25 +100,25 @@ When finished, the bot turns.=Une fois terminé, le robot fonctionne.
 
 ### cmd_item.lua ###
 
-Take <num> items from a chest like node@nand put it into the item inventory.@n<slot> is the inventory slot (1..8) or 0 for any one=
-Add <num> items to a chest like node@ntaken from the item inventory.@n<slot> is the inventory slot (1..8) or 0 for any one=
-Add <num> fuel to a furnace like node@ntaken from the item inventory.@n<slot> is the inventory slot (1..8) or 0 for any one=
-deprecated, use bot inventory configuration instead=
-Pick up all objects@nin a 3x3 field.@n<slot> is the inventory slot (1..8) or 0 for any one=
-Drop items in front of the bot.@n<slot> is the inventory slot (1..8) or 0 for any one=
-Punch a rail cart to start it=
+Take <num> items from a chest like node@nand put it into the item inventory.@n<slot> is the inventory slot (1..8) or 0 for any one=Prendre <num> objets d'un coffre comme le bloc@n et les mettre dans l'inventaire. @n<slot> est l'emplacement d'inventaire (1..8) ou 0 pour n'importe quel emplacement
+Add <num> items to a chest like node@ntaken from the item inventory.@n<slot> is the inventory slot (1..8) or 0 for any one=Ajoute <nombre> d'objets dans un coffre comme le bloc@n et les prend dans l'inventaire. @n<slot> est l'emplacement d'inventaire (1..8) ou 0 pour n'importe quel emplacement
+Add <num> fuel to a furnace like node@ntaken from the item inventory.@n<slot> is the inventory slot (1..8) or 0 for any one=Ajoute <num> combustible dans un fourneau comme @n le le prend dans l'inventaire. @n<slot> est l'emplacement d'inventaire (1..8) ou 0 pour n'importe quel emplacement
+deprecated, use bot inventory configuration instead=déprécié, utilisez plutôt la configuration de l'inventaire du robot
+Pick up all objects@nin a 3x3 field.@n<slot> is the inventory slot (1..8) or 0 for any one=Ramasse tous les objets@n dans une zone de 3x3. @n<slot> est l'emplacement d'inventaire (1..8) ou 0 pour n'importe quel emplacement
+Drop items in front of the bot.@n<slot> is the inventory slot (1..8) or 0 for any one=Dépose des objets devant le robot. @n<slot> est l'emplacement d'inventaire (1..8) ou 0 pour n'importe quel emplacement
+Punch a rail cart to start it=Frappez le wagonnet pour le faire démarrer
 
 ### cmd_move.lua ###
 
-Move the robot one step back=
-Turn the robot to the left=
-Turn the robot to the right=
-Turn the robot around=
-Move the robot upwards=
-Move the robot down=
-Stop the robot for <sec> seconds@n(1..9999)=
-Stop the robot.=
-Turn the robot off@nand put it back in the box.=
+Move the robot one step back=Déplacement du robot d'un pas en arrière
+Turn the robot to the left=Tournez le robot vers la gauche
+Turn the robot to the right=Tourner le robot vers la droite
+Turn the robot around=faire tourner le robot
+Move the robot upwards=Déplacement le robot vers le haut
+Move the robot down=Déplacement du robot vers le bas
+Stop the robot for <sec> seconds@n(1..9999)=Arrêtez le robot pendant <sec> secondes@n(1..9999)
+Stop the robot.=Arrêtez le robot.
+Turn the robot off@nand put it back in the box.=Eteindre le robot@n et remettez-le dans la boîte.
 
 ### cmd_pattern.lua ###
 
